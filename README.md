@@ -5,5 +5,11 @@ ouiner is a project to create a JSON database derived from IEEE's OUI
 It also merges popular device data currently gathered by Etienne Perot's             
 [macchiato](https://github.com/EtiennePerot/macchiato) project.
 
+The ouiner database is used to feed the popular MAC address spoofing mode in
+Subgraph's macouflage application.
+
 # Usage
-$ ouiner.py > ouis.json
+```
+$ python ouiner.py > ouis.json
+```
+
